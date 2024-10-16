@@ -1,0 +1,11 @@
+/home/bettoshell/volcalc/target/debug/deps/libread_input-c0018451ffabd04c.rmeta: /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/lib.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/core.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/prelude.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/shortcut.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/test_generators.rs
+
+/home/bettoshell/volcalc/target/debug/deps/libread_input-c0018451ffabd04c.rlib: /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/lib.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/core.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/prelude.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/shortcut.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/test_generators.rs
+
+/home/bettoshell/volcalc/target/debug/deps/read_input-c0018451ffabd04c.d: /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/lib.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/core.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/prelude.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/shortcut.rs /home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/test_generators.rs
+
+/home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/lib.rs:
+/home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/core.rs:
+/home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/prelude.rs:
+/home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/shortcut.rs:
+/home/bettoshell/.cargo/registry/src/index.crates.io-6f17d22bba15001f/read_input-0.8.6/src/test_generators.rs:

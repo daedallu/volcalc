@@ -2,15 +2,22 @@ use read_input::prelude::*;
 use std::env;
 mod forma;
 mod centimeter;
+mod man;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
+	
     let choice_solid = &args[1];
     let choice_unity = &args[2];
+    let arg_len: usize = args.len();
+    
+    if arg_len < 3 {
+		let message = "Please tip ´cargo r -- inst -man´ to check how.";
+		panic!("{}", message);
+	}
 
 // Cyllinder
-
-	if choice_solid == "cy" && choice_unity == "-cm"{
+    else if choice_solid == "cy" && choice_unity == "-cm"{
         println!("----VOLUME OF A CYLLINDER /( insert values in cm, please)/----");
 		let res = centimeter::default_(forma::cyvol());
 		println!("{} cm³", res);
@@ -400,5 +407,8 @@ fn main() {
 		let res = centimeter::to_mm(forma::rectvol());
 		println!("{} mm³", res);
 		}
-
+	else if choice_solid == "inst" && choice_unity == "-man"{
+        man::instructions();
+		}
 }
+

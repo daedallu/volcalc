@@ -1,4 +1,4 @@
-use read_input::prelude::*;
+//use read_input::prelude::*;
 use std::env;
 mod forma;
 mod centimeter;
@@ -6,18 +6,24 @@ mod man;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
+    let arg_len: usize = args.len();
+	if arg_len <3 {
+		std::panic::set_hook(Box::new(|panic_info| {
+			let message = "NOT enough arguments.\nPlease tip ´cargo r -- inst -man´ to check how.";
+			let backtrace = std::backtrace::Backtrace::capture();
+			eprintln!("BACKTRACE: {:#?}: {}", backtrace, message);
+}));
 	
+		//;
+	}
     let choice_solid = &args[1];
     let choice_unity = &args[2];
-    let arg_len: usize = args.len();
     
-    if arg_len < 3 {
-		let message = "Please tip ´cargo r -- inst -man´ to check how.";
-		panic!("{}", message);
-	}
+    
+  
 
 // Cyllinder
-    else if choice_solid == "cy" && choice_unity == "-cm"{
+     if choice_solid == "cy" && choice_unity == "-cm"{
         println!("----VOLUME OF A CYLLINDER /( insert values in cm, please)/----");
 		let res = centimeter::default_(forma::cyvol());
 		println!("{} cm³", res);
